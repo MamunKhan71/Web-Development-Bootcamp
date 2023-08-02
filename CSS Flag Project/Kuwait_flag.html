@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .ua-flg{
+                height: 600px;
+                width: 900px;
+                position: relative;
+            }
+            .ua-flg>div:nth-child(1){
+                background-color: green;
+                height: 200px;
+                width: 100%;
+                position: absolute;
+            }
+            .ua-flg>div:nth-child(2){
+                height: 200px;
+                width: 80%;
+                background-color: white;
+                position: absolute;
+                top: 200px;
+                left: 200px;
+                z-index: 1;
+            }
+            .ua-flg>div:nth-child(3){
+                height: 200px;
+                width: 100%;
+                background-color: darkred;
+                position: absolute;
+                top: 400px;
+            }
+            .triangle{
+                height: 0px;
+                width: 0px;
+                border-top: 300px solid transparent;
+                border-bottom: 300px solid transparent;
+                border-left: 300px solid black;
+                border-right: 300px solid transparent;
+                position: absolute;
+                z-index: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="ua-flg">
+            <div></div>
+            <div>
+
+            </div>
+            <div>
+
+            </div>
+            <div class="triangle">
+
+            </div>
+        </div>
+    </body>
+</html>
