@@ -43,24 +43,21 @@ footer {
   .logo{
     height: 20px;
   }
-  .card{
-    width: 100%;
-  }
   h1 {
     width: 100%;
     text-align: center;
   }
-  .tile-image{
-    height: 250px;
+  .card{
     width: 100%;
-  }
-  .card-title{
-    font-size: 1.8rem;
-  }
-  .card-text{
-    font-size: 1.2rem;
-    width: 100%;
+    display: block;
     text-align: justify;
+    margin-bottom: 20px;
+  }
+  .card img{
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
   }
 }
 
