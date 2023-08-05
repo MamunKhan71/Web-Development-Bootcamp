@@ -1,0 +1,32 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main-div{
+    height: 250px;
+    width: 100%;
+}
+.pricing{
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+.price{
+    background-color: rgb(230, 250, 250);
+    text-align: center;
+    padding: 50px;
+}
+
+
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Added background color for visualization */
+}
