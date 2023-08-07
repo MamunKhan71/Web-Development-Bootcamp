@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .container{
+            display: grid;
+            height: 100vh;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            gap: 40px;
+        }
+        .item{
+            display: flex;
+            font-size: 5rem;
+            background-color: blue;
+            justify-content: center;
+            align-items: center;
+        }
+        .cowboy, .book{
+            grid-column: span 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+      <div class="item cowboy">🤠</div>
+      <div class="item astronaut">👨‍🚀</div>
+      <div class="item book">📖</div>
+    </div>
+  </body>
+</html>
